@@ -222,4 +222,5 @@ function mkSig(pair,idx){
   var dir=Math.random()>.5?'call':'put';
   var conf=Math.min(95,62+Math.floor(Math.random()*30));
   var sh=INDS.slice().sort(function(){return Math.random()-.5;});
+
   var active=new Set(sh.slice(0,3+Math.floor(Math.random()
